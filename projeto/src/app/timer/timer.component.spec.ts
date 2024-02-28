@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NovosComponent } from './novos.component';
+import { TimerComponent } from './timer.component';
 
-describe('NovosComponent', () => {
-  let component: NovosComponent;
-  let fixture: ComponentFixture<NovosComponent>;
+describe('TimerComponent', () => {
+  let component: TimerComponent;
+  let fixture: ComponentFixture<TimerComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [NovosComponent]
+      declarations: [TimerComponent]
     });
-    fixture = TestBed.createComponent(NovosComponent);
+    fixture = TestBed.createComponent(TimerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
