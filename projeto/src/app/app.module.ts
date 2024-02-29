@@ -1,20 +1,21 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { NovosComponent } from './novos/novos.component';
+import { AppRoutingModule } from './app-routing.module';
 import { TimerComponent } from './timer/timer.component';
+import { CountdownComponent } from './countdown/countdown.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    NovosComponent,
-    TimerComponent
+    TimerComponent,
+    CountdownComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
